@@ -2,9 +2,9 @@
 Esse projeto é a solução para o seguinte [desafio backend](https://github.com/backend-br/desafios/blob/master/cryptography/PROBLEM.md), foi feito com o objetivo principal de estudo. O desafio era implementar a criptografia em um serviço de forma transparente para a API e para as camadas de serviço da aplicação.
 
 ## Sobre o Projeto
-Foi feito na linguagem Go, na versão 1.22 . Foi utilizado o banco de dados sqlite3 para a persistencia de dados.
+Foi feito na linguagem Go, na versão 1.22 e foi utilizado o banco de dados sqlite3 para a persistencia de dados.
 
-O projeto é uma API que houve na porta 8080 e expõe os seguintes endpoints:
+O projeto é uma API que ouve na porta 8080 e expõe os seguintes endpoints:
 
 + Para criar uma nova entidade. Os campos user_document e credit_card_token serão armazenados já criptografados no banco de dados usando a criptografia AES.
 ```
